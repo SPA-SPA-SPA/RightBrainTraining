@@ -81,7 +81,7 @@
         {
             endwin();
         }
-        #define putchar __putchar
+        #define putchar __putchar       // 替换调用的函数
         #define printf __printf
         #define puts __puts
     #endif
