@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
         }
         for( i = 9; i > 0; i--)         // 重新排列数组a
         {
-            int j =rand() % (i + 1);
+            int j = rand() % (i + 1);   // 生成0~9、0~8、……、0的随机数
             if(i != j)
                 swap(int, a[i], a[j]);
         }
